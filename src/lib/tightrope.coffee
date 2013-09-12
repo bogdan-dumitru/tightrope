@@ -1,2 +1,2 @@
 define () ->
-	return {test: 'asd'}
+  return {test: 'asd'}

@@ -1,8 +1,8 @@
 var requirejs = require('requirejs');
 
 requirejs.config({
-	baseUrl: __dirname,
-	nodeRequire: require
-}) 
+  baseUrl: __dirname,
+  nodeRequire: require
+})
 
 module.exports = requirejs('lib/tightrope');

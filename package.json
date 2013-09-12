@@ -1,54 +1,54 @@
 {
-	"name": "tightrope",
-	"preferGlobal": true,
-	"version": "0.0.1",
-	"author": "Bogdan Dumitru <dum.bogdan@gmail.com>",
-	"description": "A new generation web-app framework that really breaches the gab between client and server.",
+  "name": "tightrope",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Bogdan Dumitru <dum.bogdan@gmail.com>",
+  "description": "A new generation web-app framework that really breaches the gab between client and server.",
 
-	"bin": "TODO: add bin for system-wide generator",
-	"bin": {
-		"tightrope": ""
-	},
+  "bin": "TODO: add bin for system-wide generator",
+  "bin": {
+    "tightrope": ""
+  },
 
-	"main": "index",
+  "main": "index",
 
-	"repository": {
-		"type": "git",
-		"url": "TODO: Add actual repo",
-		"url": ""
-	},
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add actual repo",
+    "url": ""
+  },
 
-	"keywords": "TODO: Refine",
-	"keywords": [
-		"framework",
-		"MOVE", 
-		"MOWE",
-		"full stack"
-	],
+  "keywords": "TODO: Refine",
+  "keywords": [
+    "framework",
+    "MOVE",
+    "MOWE",
+    "full stack"
+  ],
 
-	"dependencies": {
-		"colors"        : "*",
-		"express"       : "3.4.0",
-		"socket.io"		: "latest",
-		"requirejs"		: "latest"
-	},
+  "dependencies": {
+    "colors"        : "*",
+    "express"       : "3.4.0",
+    "socket.io"   : "latest",
+    "requirejs"   : "latest"
+  },
 
-	"devDependencies": {
-	    "ejs": "*",
-	    "mocha": "*",
-	    "jade": "0.30.0",
-	    "hjs": "*",
-	    "stylus": "*",
-	    "should": "*",
-	    "connect-redis": "*",
-	    "marked": "*",
-	    "supertest": "0.6.0",
-	    "cucumber": "*"
-	},
+  "devDependencies": {
+      "ejs": "*",
+      "mocha": "*",
+      "jade": "0.30.0",
+      "hjs": "*",
+      "stylus": "*",
+      "should": "*",
+      "connect-redis": "*",
+      "marked": "*",
+      "supertest": "0.6.0",
+      "cucumber": "*"
+  },
 
-	"license": "MIT",
-	"engines": {
-		"node": ">=0.10"
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
 
-	}
+  }
 }
