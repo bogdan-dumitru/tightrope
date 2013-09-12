@@ -10,8 +10,7 @@
 		"tightrope": ""
 	},
 
-	"main": "TODO: Add main entry point",
-	"main": "",
+	"main": "index",
 
 	"repository": {
 		"type": "git",
@@ -30,6 +29,18 @@
 	"dependencies": {
 		"colors"        : "*",
 		"express"       : "3.4.0"
+	},
+	
+	"devDependencies": {
+	    "ejs": "*",
+	    "mocha": "*",
+	    "jade": "0.30.0",
+	    "hjs": "*",
+	    "stylus": "*",
+	    "should": "*",
+	    "connect-redis": "*",
+	    "marked": "*",
+	    "supertest": "0.6.0"
 	},
 
 	"license": "MIT",
