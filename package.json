@@ -1,0 +1,40 @@
+{
+	"name": "tightrope",
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"author": "Bogdan Dumitru <dum.bogdan@gmail.com>",
+	"description": "A new generation web-app framework that really breaches the gab between client and server.",
+
+	"bin": "TODO: add bin for system-wide generator",
+	"bin": {
+		"tightrope": ""
+	},
+
+	"main": "TODO: Add main entry point",
+	"main": "",
+
+	"repository": {
+		"type": "git",
+		"url": "TODO: Add actual repo",
+		"url": ""
+	},
+
+	"keywords": "TODO: Refine",
+	"keywords": [
+		"framework",
+		"MOVE", 
+		"MOWE",
+		"full stack"
+	],
+
+	"dependencies": {
+		"colors"        : "*",
+		"express"       : "3.4.0"
+	},
+
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+
+	}
+}
