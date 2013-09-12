@@ -28,9 +28,11 @@
 
 	"dependencies": {
 		"colors"        : "*",
-		"express"       : "3.4.0"
+		"express"       : "3.4.0",
+		"socket.io"		: "latest",
+		"requirejs"		: "latest"
 	},
-	
+
 	"devDependencies": {
 	    "ejs": "*",
 	    "mocha": "*",
@@ -40,7 +42,8 @@
 	    "should": "*",
 	    "connect-redis": "*",
 	    "marked": "*",
-	    "supertest": "0.6.0"
+	    "supertest": "0.6.0",
+	    "cucumber": "*"
 	},
 
 	"license": "MIT",

@@ -1,9 +1,15 @@
-MOCHA_OPTS= --check-leaks
+MOCHA_OPTS= --check-leaks -r should
 REPORTER = dot
 
 check: test
 
 test: test-unit test-acceptance
+
+build:
+	coffee -o lib/ -c src/lib/ && coffee -o test/ -c src/test
+
+watch:
+	coffee -o . --watch -c src/
 
 test-unit:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
